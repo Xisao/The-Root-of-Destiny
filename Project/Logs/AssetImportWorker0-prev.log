@@ -1,0 +1,402 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kasutaja/Documents/GAME JAM 2022/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59692
+Successfully changed project path to: C:/Users/Kasutaja/Documents/GAME JAM 2022/My project
+C:/Users/Kasutaja/Documents/GAME JAM 2022/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17268] Host "[IP] 10.10.0.121 [Port] 0 [Flags] 2 [Guid] 3075261924 [EditorId] 3075261924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PLMKHS2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17268] Host "[IP] 10.10.0.121 [Port] 0 [Flags] 2 [Guid] 3075261924 [EditorId] 3075261924 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PLMKHS2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 213.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kasutaja/Documents/GAME JAM 2022/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     4035 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.057690 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 536 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 195.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2223ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1587ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (731ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (195ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028754 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kasutaja\Documents\GAME JAM 2022\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kasutaja\Documents\GAME JAM 2022\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 195.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2686ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2312ms)
+			LoadAssemblies (353ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (196ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (305ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5552 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.9 MB). Loaded Objects now: 5999.
+Memory consumption went from 216.0 MB to 215.1 MB.
+Total: 6.835700 ms (FindLiveObjects: 0.548500 ms CreateObjectMapping: 0.564200 ms MarkObjects: 5.242300 ms  DeleteObjects: 0.479300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 212823.452019 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(74b540afa1d3a4442b2861587b254039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(74b540afa1d3a4442b2861587b254039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8befc39dff5a6f06c12d9ab08e2053e') in 0.014425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.353772 seconds.
+  path: Assets/Sprites/Dash
+  artifactKey: Guid(450e797b5fa22eb4c94ccaecf765ab03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash using Guid(450e797b5fa22eb4c94ccaecf765ab03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6c6eaadcafdc2fcce51226169fa85a') in 0.006875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.466981 seconds.
+  path: Assets/Sprites/Dash/pot_dash_00.png
+  artifactKey: Guid(b5d0aec6bac1a2b4892d8a934a740d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_00.png using Guid(b5d0aec6bac1a2b4892d8a934a740d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4cb0474b755cf1f44d442d4a842001') in 0.184528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Dash/pot_dash_01.png
+  artifactKey: Guid(1b02e5b62d5d7284ca6580171e3ac27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_01.png using Guid(1b02e5b62d5d7284ca6580171e3ac27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef39c28f5e4ab7b9db1f21a1d8ea0d84') in 0.018414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Dash/pot_dash_02.png
+  artifactKey: Guid(aa2a59880297aac44b9565c315e2a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_02.png using Guid(aa2a59880297aac44b9565c315e2a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279930ba887340369a6a14f5dc9fe891') in 0.020550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Dash/pot_dash_06.png
+  artifactKey: Guid(f54d104a4e3bed94bbd5116c1742db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_06.png using Guid(f54d104a4e3bed94bbd5116c1742db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca5bd20fdeb562ff152c8d72e1d5970') in 0.021858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sprites/Dash/pot_dash_08.png
+  artifactKey: Guid(aba2050bc8b6aa34eb7a7ec5bea529ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_08.png using Guid(aba2050bc8b6aa34eb7a7ec5bea529ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8fac50eec7df4ebd0f730c95421368') in 0.026189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Dash/pot_dash_05.png
+  artifactKey: Guid(e25c8f45442e8a74dba03f72577f7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_05.png using Guid(e25c8f45442e8a74dba03f72577f7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71325d6aa46a99c32a1a3161104ab202') in 0.030362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Dash/pot_dash_07.png
+  artifactKey: Guid(8b2d3535ceb8a464ebe76eb965867654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_07.png using Guid(8b2d3535ceb8a464ebe76eb965867654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3149c230d722e21f6d2cfa7a8f8ebdf9') in 0.015130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Dash/pot_dash_04.png
+  artifactKey: Guid(d111ec91232300243a814b1c6cc1c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_04.png using Guid(d111ec91232300243a814b1c6cc1c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28385abae8806153b74a054b7f598a3d') in 0.021697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprites/Dash/pot_dash_03.png
+  artifactKey: Guid(969f10562ae906b4ea4a6529427d282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_03.png using Guid(969f10562ae906b4ea4a6529427d282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4596b1eb3768ff75004e1aed0c25b73e') in 0.015780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Dash/pot_dash_10.png
+  artifactKey: Guid(071c237eb406d194b814c52f504caf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_10.png using Guid(071c237eb406d194b814c52f504caf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f4f2a1fbf8935cd2e2dc3e1a2e9760') in 0.015805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Dash/pot_dash_09.png
+  artifactKey: Guid(c0dde924f26269743b433f5b82a28a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_09.png using Guid(c0dde924f26269743b433f5b82a28a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cd0bf978f52ea49af5418cca1775e8') in 0.026693 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kasutaja\Documents\GAME JAM 2022\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kasutaja\Documents\GAME JAM 2022\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.044 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5052ms)
+		BeginReloadAssembly (530ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (184ms)
+		EndReloadAssembly (4105ms)
+			LoadAssemblies (427ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1165ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (252ms)
+			SetupLoadedEditorAssemblies (1926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (179ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (388ms)
+				ProcessInitializeOnLoadAttributes (913ms)
+				ProcessInitializeOnLoadMethodAttributes (343ms)
+				AfterProcessingInitializeOnLoad (97ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.9 MB). Loaded Objects now: 6008.
+Memory consumption went from 211.1 MB to 210.3 MB.
+Total: 11.711400 ms (FindLiveObjects: 0.939300 ms CreateObjectMapping: 1.211600 ms MarkObjects: 8.576500 ms  DeleteObjects: 0.982100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 358.723213 seconds.
+  path: Assets/Sprites/Dash/pot_dash_00.png
+  artifactKey: Guid(b5d0aec6bac1a2b4892d8a934a740d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_00.png using Guid(b5d0aec6bac1a2b4892d8a934a740d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4852522c42198da41bf43ff60fbb76bb') in 0.092154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Dash/pot_dash_01.png
+  artifactKey: Guid(1b02e5b62d5d7284ca6580171e3ac27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_01.png using Guid(1b02e5b62d5d7284ca6580171e3ac27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c31ac6fc9069109920e63680241bda0') in 0.018672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Dash/pot_dash_02.png
+  artifactKey: Guid(aa2a59880297aac44b9565c315e2a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_02.png using Guid(aa2a59880297aac44b9565c315e2a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921850c4bdebe9b2b4b3f2ae9daecebf') in 0.020119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Dash/pot_dash_06.png
+  artifactKey: Guid(f54d104a4e3bed94bbd5116c1742db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_06.png using Guid(f54d104a4e3bed94bbd5116c1742db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bc3c6ddce7a80d6414ad2c2dca819b') in 0.021651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/Dash/pot_dash_08.png
+  artifactKey: Guid(aba2050bc8b6aa34eb7a7ec5bea529ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_08.png using Guid(aba2050bc8b6aa34eb7a7ec5bea529ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db837351adf56c0ba5fb6eb5f30f7481') in 0.013173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Dash/pot_dash_05.png
+  artifactKey: Guid(e25c8f45442e8a74dba03f72577f7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_05.png using Guid(e25c8f45442e8a74dba03f72577f7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29c8d5dbb5b960bc6df1c5ab583879b') in 0.024326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Dash/pot_dash_07.png
+  artifactKey: Guid(8b2d3535ceb8a464ebe76eb965867654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_07.png using Guid(8b2d3535ceb8a464ebe76eb965867654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651be79e1d8750f4026f91ef95220a1c') in 0.013045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprites/Dash/pot_dash_04.png
+  artifactKey: Guid(d111ec91232300243a814b1c6cc1c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_04.png using Guid(d111ec91232300243a814b1c6cc1c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bc66a6775cd663474a83efa2899335') in 0.020457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Dash/pot_dash_03.png
+  artifactKey: Guid(969f10562ae906b4ea4a6529427d282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_03.png using Guid(969f10562ae906b4ea4a6529427d282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ad8420fc9604cc31a48b3fb59e7faf') in 0.020080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Sprites/Dash/pot_dash_10.png
+  artifactKey: Guid(071c237eb406d194b814c52f504caf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_10.png using Guid(071c237eb406d194b814c52f504caf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773310d84f13a421f0d793ab10bf40c2') in 0.015289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Dash/pot_dash_09.png
+  artifactKey: Guid(c0dde924f26269743b433f5b82a28a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_09.png using Guid(c0dde924f26269743b433f5b82a28a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd5916c0b91eebbbf2e5061a29a981e') in 0.025641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.010163 seconds.
+  path: Assets/Sprites/Dash/pot_dash_00.png
+  artifactKey: Guid(b5d0aec6bac1a2b4892d8a934a740d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dash/pot_dash_00.png using Guid(b5d0aec6bac1a2b4892d8a934a740d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a6f9d3b21206945d7058f3e139b59b') in 0.031599 seconds 

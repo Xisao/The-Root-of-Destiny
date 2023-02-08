@@ -1,0 +1,543 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675606011236240, "dur":2398, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011238668, "dur":307, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675606011239069, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675606011239106, "dur":464, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675606011239632, "dur":2294, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011241927, "dur":6, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571423, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571506, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571553, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571565, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571580, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571586, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571599, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571605, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571617, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571638, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011571759, "dur":4670, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675606011243636, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011243638, "dur":17250, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011260913, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675606011260950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011262166, "dur":1316, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675606011263512, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675606011263600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011265118, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675606011269216, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675606011269589, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011269850, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675606011271767, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675606011272205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011272364, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675606011275132, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675606011275756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011276124, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675606011278003, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1675606011278231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011278346, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1675606011280086, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1675606011280505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011280518, "dur":6721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1675606011287334, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675606011287558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011287566, "dur":23203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675606011310901, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1675606011311168, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011311780, "dur":66439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1675606011380154, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011380244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011380257, "dur":6671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011387002, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011387161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011387174, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011389527, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011390031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011390282, "dur":4974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011395320, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011395391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011395400, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011397428, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011397504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011397521, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011400141, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011400215, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011400231, "dur":4261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011404566, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011404634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011404643, "dur":5955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011410680, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011410746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011410756, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011412975, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011413047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011413059, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011415210, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011415295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011415345, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011417114, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011417183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011417196, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011420296, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011420372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011420387, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011421983, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011422079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011422090, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011425231, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011425352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011425367, "dur":20855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011446331, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011446410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011446423, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011449984, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011450055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011450070, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011453519, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011453594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011453609, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011456210, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011456278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011456288, "dur":4553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011460905, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011460975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011460984, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011463511, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011464184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011464197, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011466526, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011466924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011466945, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011469254, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011469528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011469545, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011471596, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011471810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011471823, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011476517, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011476749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011476762, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011478626, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011478854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011478865, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011480834, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011481043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011481052, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011483694, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011484143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011484152, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011486214, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011486462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011486478, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011488694, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011488961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011489003, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011492426, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011492741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011492754, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011495874, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011495943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011496070, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011498725, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011498787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011498797, "dur":6066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011504933, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011505027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011505038, "dur":32622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011537744, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011537824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011537838, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011542734, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011543159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011543418, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011546835, "dur":1868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011548710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011549545, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675606011551423, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675606011551495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011551504, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675606011555439, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675606011555505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011555516, "dur":4896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675606011560474, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675606011560542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011560549, "dur":4236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675606011564851, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675606011564915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675606011564923, "dur":6384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675606011571382, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1675606011571384, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011244792, "dur":3, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011244797, "dur":16328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011261126, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675606011261328, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011264254, "dur":5274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675606011269604, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675606011269955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011269968, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675606011274803, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675606011275297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011275312, "dur":20483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675606011295918, "dur":126466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny.exe" }}
+,{ "pid":12345, "tid":2, "ts":1675606011422391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011422401, "dur":8108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny.exe" }}
+,{ "pid":12345, "tid":2, "ts":1675606011430582, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011430693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011430752, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011435443, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011435523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011435537, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011438814, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011438897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011438908, "dur":7507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011446480, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011446546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011446556, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011448439, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011448513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011448526, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011449972, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011450069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011450081, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011452382, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011452450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011452460, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011455176, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011455258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011455271, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011461110, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011461183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011461195, "dur":7367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011468631, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011468871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011468880, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011470879, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011471138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011471151, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011472905, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011473512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011473527, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011477376, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011477599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011477612, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011480337, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011480554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011480570, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011483312, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011484087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011484103, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011486724, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011486805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011486814, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011489285, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011489681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011489697, "dur":4708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011494548, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011495089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011495103, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011497146, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011497221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011497230, "dur":13603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011510906, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011510976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011510989, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011513627, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011513713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011513726, "dur":15228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011529040, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011529582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011529596, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011535116, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011535198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011535210, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011539352, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011539430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011539438, "dur":10353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675606011549861, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1675606011549989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011550095, "dur":5719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1675606011555887, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675606011556114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011556123, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675606011560019, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675606011560460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011560470, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675606011562782, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1675606011562882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011562896, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1675606011564791, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675606011564860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011564903, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675606011567113, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1675606011567213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675606011567231, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1675606011569858, "dur":1545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011245240, "dur":3, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011245244, "dur":15858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011261102, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675606011261317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011265230, "dur":4306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675606011269615, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675606011269938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011270505, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675606011271906, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675606011272277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011272377, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675606011275105, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675606011275311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011276095, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675606011278020, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675606011278860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011278912, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675606011281016, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011281420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011281517, "dur":62208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011343945, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011344703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011346582, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011351139, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011351234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011351350, "dur":10198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011361729, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011361812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011361827, "dur":5577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011367497, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011367600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011367618, "dur":6649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011374392, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011374480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011374497, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011379766, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011379837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011379860, "dur":4111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011384042, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011384129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011384141, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011388192, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011388271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011388284, "dur":6818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011395180, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011395254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011395263, "dur":17414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011412749, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011412831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011412844, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011416920, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011417042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011417812, "dur":6508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011424395, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011424466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011424477, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011425900, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011425995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011426004, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011427877, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011427958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011427967, "dur":5510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011433649, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011433740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011433751, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011435890, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011435960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011435969, "dur":7974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011444013, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011444142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011444154, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011447067, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011447136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011447148, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011449046, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011449120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011449132, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011451394, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011451457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011451465, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011453556, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011453636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011453648, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011456295, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011457024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011457036, "dur":4124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011461223, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011461496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011461504, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011464010, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011464943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011464956, "dur":6783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011471802, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011472114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011472129, "dur":5533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011477740, "dur":21941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011499688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011499701, "dur":19544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011519321, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011519491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011519505, "dur":15398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011534978, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011535054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011535065, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011539129, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011539194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011539206, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011541903, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011541974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011541985, "dur":5145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675606011547222, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1675606011547562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011548755, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1675606011550817, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675606011551180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011551191, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675606011555660, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675606011555733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011555783, "dur":4698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675606011560542, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675606011560609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011560619, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675606011565066, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675606011565137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675606011565147, "dur":3963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675606011569203, "dur":2201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011245460, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011245462, "dur":15430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011260911, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1675606011261469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011264206, "dur":5277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1675606011269554, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011269944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011269952, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011272202, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011272492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011272502, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011275115, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011275589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011276129, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011278284, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011278463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011278478, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011280096, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011280321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011280637, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011284321, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011284549, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011284571, "dur":102156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011386803, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011387226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011387239, "dur":7731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011395042, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011395111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011395124, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011397427, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011397542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011397556, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011400142, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011400219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011400231, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011402528, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011402606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011402619, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011404335, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011404419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011404430, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011405961, "dur":2014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011407985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011408005, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011411841, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011411928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011411938, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011413546, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011413629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011413639, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011415755, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011415825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011415837, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011418211, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011418303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011418314, "dur":15774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011434245, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011434379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011434395, "dur":9398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011443868, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011443938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011443949, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011446605, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011446684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011446696, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011448829, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011448901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011448913, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011451174, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011451244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011451255, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011452745, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011452840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011452856, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011455048, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011455165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011455179, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011460678, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011460750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011460766, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011464356, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011464433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011464442, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011467051, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011467886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011467949, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011470348, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011470594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011470604, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011472213, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011472438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011472452, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011477046, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011477249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011477257, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011479935, "dur":1218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011481160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011481173, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011484389, "dur":1249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011485648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011485665, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011488196, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011488822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011488836, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011491405, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011491701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011491718, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011495088, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011495367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011495376, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011497202, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011497266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011497274, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011500760, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011500854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011500865, "dur":8647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011509740, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011510051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011510066, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011512304, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011512371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011512385, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011514967, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011515091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011515102, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011517724, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011517856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011517868, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011519975, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011520045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011520055, "dur":6314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011526441, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011526509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011526520, "dur":10880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011537801, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011537885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011537897, "dur":30275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675606011568252, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011568549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675606011568561, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasutaja/Videos/The Root of Destiny/The Root of Destiny_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1675606011570304, "dur":1098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675606011579856, "dur":4822, "ph":"X", "name": "ProfilerWriteOutput" }
+,
